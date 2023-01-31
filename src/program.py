@@ -1,4 +1,5 @@
 # FUNÇÃO PRINT
+from math import ceil, floor
 import sys
 from datetime import date
 print("show this is the console")
@@ -210,3 +211,36 @@ print(
 print(
     f"On the Moon, you would weigh about {round(100/6, 1)}% of your weight on Earth")
 'On the Moon, you would weigh about 16.7% of your weight on Earth'
+
+
+# USAR OPERAÇÕES MATEMÁTICAS
+
+seconds = 1042
+display_minutes = 1042 // 60  # arredondar para baixo usando a função piso //.
+display_seconds = 1042 % 60
+
+print(display_minutes)
+print(display_seconds)
+# Output:
+# 17
+# 22
+
+print(abs(39 - 16))
+print(abs(16 - 39))
+# Output
+# 23
+# 23
+
+print(round(14.5))
+# Output: 15
+
+
+round_up = ceil(12.5)
+print(round_up)
+
+round_down = floor(12.5)
+print(round_down)
+
+# Output
+# 13
+# 12
