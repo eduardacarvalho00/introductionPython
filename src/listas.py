@@ -48,8 +48,10 @@ print("The heaviest a bus would be in the solar system is",
 
 
 # cortar listas
-planets = ["Mercury", "Venus", "Earth", "Mars",
-           "Jupiter", "Saturn", "Uranus", "Neptune"]
 planets_before_earth = planets[0:2]
 print(planets_before_earth)
 # ['Mercury', 'Venus']
+
+numbers_list = [2, 91, 38, 2, 9, 0]
+planets_sorted = numbers_list.sort()
+print(numbers_list.sort())
